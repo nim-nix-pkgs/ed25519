@@ -11,7 +11,6 @@
   inputs.src-ed25519-master.ref   = "refs/heads/master";
   inputs.src-ed25519-master.owner = "niv";
   inputs.src-ed25519-master.repo  = "ed25519.nim";
-  inputs.src-ed25519-master.dir   = "";
   inputs.src-ed25519-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
