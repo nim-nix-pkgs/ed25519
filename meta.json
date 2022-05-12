@@ -7,8 +7,39 @@
   "license": "MIT",
   "web": "https://github.com/niv/ed25519.nim",
   "refs": [
-    "fatal: unable to access 'https://github.com/niv/ed25519.nim/': Could not resolve host: github.com",
+    "refs/heads/master",
     ""
   ],
-  "heads": []
+  "heads": [
+    {
+      "name": "ed25519",
+      "version": "0.1.1",
+      "author": "niv",
+      "desc": "ed25519 key crypto bindings",
+      "license": "MIT",
+      "skipDirs": [
+        "tests/"
+      ],
+      "skipFiles": [],
+      "skipExt": [],
+      "installDirs": [],
+      "installFiles": [],
+      "installExt": [],
+      "requires": [
+        {
+          "name": "nim",
+          "str": ">= 0.13.0",
+          "ver": {
+            "kind": "verEqLater",
+            "ver": "0.13.0"
+          }
+        }
+      ],
+      "bin": [],
+      "binDir": "",
+      "srcDir": "",
+      "backend": "c",
+      "ref": "refs/heads/master"
+    }
+  ]
 }
